@@ -297,17 +297,16 @@ background-color: none;
   background-size: 240px 250px;
 }
 
-.project-card__visual-chat {
+.project-card__visual-pi {
   background-image: url(../img/pi.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
 }
 
-.project-card__visual-chat p {
+.project-card__visual-pi p {
   color: white;
   text-align: center;
-  text-transform: uppercase;
   background-color: black;
   padding: 10px;
   border-radius: 5px 5px;
