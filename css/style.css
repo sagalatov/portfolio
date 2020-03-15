@@ -297,11 +297,27 @@ background-color: none;
   background-size: 240px 250px;
 }
 
-.project-card__visual-Dialer {
+.project-card__visual-chat {
+  background-image: url(../img/pi.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.project-card__visual-chat p {
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: black;
+  padding: 10px;
+  border-radius: 5px 5px;
+}
+
+.project-card__visual-dialer {
   background-color: #86af45;
 }
 
-.project-card__visual-Dialer p {
+.project-card__visual-dialer p {
   color: white;
 }
 
