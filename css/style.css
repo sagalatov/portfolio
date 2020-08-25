@@ -91,7 +91,8 @@ img {
   margin-bottom: 60px;
 }
 
-.in-work::before {
+.in-work::before,
+.in-work--white::before {
   content: " ";
   position: absolute;
   top: 0;
@@ -104,7 +105,13 @@ img {
   background-position: center;
 }
 
-.in-work::after {
+.in-work--white::before {
+  background-image: url(../img/in-work-white.svg);
+}
+
+
+.in-work::after,
+.in-work--white::after {
   content: "in work";
   top: 11px;
   left: -1px;
@@ -117,6 +124,10 @@ img {
   transform: rotate(-44deg);
   width: 60px;
   height: 30px;
+}
+
+.in-work--white::after {
+  color: black;
 }
 
 .page-main__projects {
@@ -311,6 +322,18 @@ background-color: none;
   border-radius: 5px 5px;
 }
 
+.project-card__visual-primexbt {
+  background-color: #000;
+}
+
+.project-card__visual-primexbt-blog {
+  background-color: #000;
+  background-image: url(../img/blog-bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .project-card__visual-dialer {
   background-color: #86af45;
 }
@@ -398,7 +421,7 @@ background-color: none;
   line-height: 34px;
   font-weight: normal;
   text-decoration: underline;
-  
+
 }
 
 
