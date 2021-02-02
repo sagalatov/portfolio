@@ -281,6 +281,10 @@ img {
     top: 113px;
 }
 
+.project-card__visual-react-reddit {
+    background-color: #282c34;
+}
+
 .project-card__visual-blago {
     background: rgba(1, 177, 175, 1) url(https://static.parastorage.com/services/skins/2.1229.80/images/wysiwyg/core/themes/base/shiny1button_bg.png) center center repeat-x;
 }
