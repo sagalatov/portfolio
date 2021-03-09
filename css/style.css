@@ -346,6 +346,14 @@ img {
     color: white;
 }
 
+.project-card__link-name-system {
+    background-color: #3949ab;
+}
+
+.project-card__link-name-system p {
+    color: white;
+}
+
 .project-card__visual-checklist {
     background-image: url(../img/checklist.svg);
     background-repeat: no-repeat;
