@@ -381,11 +381,6 @@ img {
     background-color: white;
 }
 
-.skill.React,
-.skill.Redux {
-    background-color: #282c34;
-}
-
 .page-main__about-me {
     display: flex;
     flex-direction: column-reverse;
