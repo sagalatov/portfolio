@@ -91,6 +91,15 @@ img {
     margin-bottom: 60px;
 }
 
+.page-main__company {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 60px;
+}
+
 .in-work::before,
 .in-work--white::before {
     content: " ";
@@ -380,6 +389,20 @@ img {
     margin: 0 10px 20px 0;
     background-color: white;
 }
+
+.page-main__company .company {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin:20px;
+    background-color: white;
+}
+
+.page-main__company .company .rsb {
+    min-width: 200px;
+}
+
 
 .page-main__about-me {
     display: flex;
