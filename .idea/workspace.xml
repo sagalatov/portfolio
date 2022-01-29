@@ -25,12 +25,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="291f8cc1-7eac-433f-92a0-95ce8f431381" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/img/adguard.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/dns.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/schema.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/angular_material.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/ledforplant.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/lokalise.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/pi.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/vector.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/wordpress.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -42,11 +56,16 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/img" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/img" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/img" />
     </key>
@@ -86,6 +105,7 @@
       <workItem from="1615274487532" duration="391000" />
       <workItem from="1615720030150" duration="648000" />
       <workItem from="1615829607637" duration="1016000" />
+      <workItem from="1643462234931" duration="10092000" />
     </task>
     <servers />
   </component>
@@ -103,63 +123,5 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state width="1259" height="210" key="GridCell.Tab.0.bottom" timestamp="1612873419214">
-      <screen x="0" y="25" width="1280" height="694" />
-    </state>
-    <state width="1259" height="210" key="GridCell.Tab.0.bottom/0.25.1280.694@0.25.1280.694" timestamp="1612873419214" />
-    <state width="1259" height="210" key="GridCell.Tab.0.center" timestamp="1612873419214">
-      <screen x="0" y="25" width="1280" height="694" />
-    </state>
-    <state width="1259" height="210" key="GridCell.Tab.0.center/0.25.1280.694@0.25.1280.694" timestamp="1612873419214" />
-    <state width="1259" height="210" key="GridCell.Tab.0.left" timestamp="1612873419213">
-      <screen x="0" y="25" width="1280" height="694" />
-    </state>
-    <state width="1259" height="210" key="GridCell.Tab.0.left/0.25.1280.694@0.25.1280.694" timestamp="1612873419213" />
-    <state width="1259" height="210" key="GridCell.Tab.0.right" timestamp="1612873419214">
-      <screen x="0" y="25" width="1280" height="694" />
-    </state>
-    <state width="1259" height="210" key="GridCell.Tab.0.right/0.25.1280.694@0.25.1280.694" timestamp="1612873419214" />
-    <state width="1259" height="210" key="GridCell.Tab.1.bottom" timestamp="1612873419215">
-      <screen x="0" y="25" width="1280" height="694" />
-    </state>
-    <state width="1259" height="210" key="GridCell.Tab.1.bottom/0.25.1280.694@0.25.1280.694" timestamp="1612873419215" />
-    <state width="1259" height="210" key="GridCell.Tab.1.center" timestamp="1612873419215">
-      <screen x="0" y="25" width="1280" height="694" />
-    </state>
-    <state width="1259" height="210" key="GridCell.Tab.1.center/0.25.1280.694@0.25.1280.694" timestamp="1612873419215" />
-    <state width="1259" height="210" key="GridCell.Tab.1.left" timestamp="1612873419214">
-      <screen x="0" y="25" width="1280" height="694" />
-    </state>
-    <state width="1259" height="210" key="GridCell.Tab.1.left/0.25.1280.694@0.25.1280.694" timestamp="1612873419214" />
-    <state width="1259" height="210" key="GridCell.Tab.1.right" timestamp="1612873419215">
-      <screen x="0" y="25" width="1280" height="694" />
-    </state>
-    <state width="1259" height="210" key="GridCell.Tab.1.right/0.25.1280.694@0.25.1280.694" timestamp="1612873419215" />
-    <state width="1259" height="210" key="GridCell.Tab.2.bottom" timestamp="1612873419216">
-      <screen x="0" y="25" width="1280" height="694" />
-    </state>
-    <state width="1259" height="210" key="GridCell.Tab.2.bottom/0.25.1280.694@0.25.1280.694" timestamp="1612873419216" />
-    <state width="1259" height="210" key="GridCell.Tab.2.center" timestamp="1612873419216">
-      <screen x="0" y="25" width="1280" height="694" />
-    </state>
-    <state width="1259" height="210" key="GridCell.Tab.2.center/0.25.1280.694@0.25.1280.694" timestamp="1612873419215" />
-    <state width="1259" height="210" key="GridCell.Tab.2.left" timestamp="1612873419215">
-      <screen x="0" y="25" width="1280" height="694" />
-    </state>
-    <state width="1259" height="210" key="GridCell.Tab.2.left/0.25.1280.694@0.25.1280.694" timestamp="1612873419215" />
-    <state width="1259" height="210" key="GridCell.Tab.2.right" timestamp="1612873419216">
-      <screen x="0" y="25" width="1280" height="694" />
-    </state>
-    <state width="1259" height="210" key="GridCell.Tab.2.right/0.25.1280.694@0.25.1280.694" timestamp="1612873419216" />
-    <state x="0" y="25" width="1280" height="694" key="MergeDialog" timestamp="1612355363830">
-      <screen x="0" y="25" width="1280" height="694" />
-    </state>
-    <state x="0" y="25" width="1280" height="694" key="MergeDialog/0.25.1280.694@0.25.1280.694" timestamp="1612355363830" />
-    <state x="278" y="137" key="MultipleFileMergeDialog" timestamp="1612355363900">
-      <screen x="0" y="25" width="1280" height="694" />
-    </state>
-    <state x="278" y="137" key="MultipleFileMergeDialog/0.25.1280.694@0.25.1280.694" timestamp="1612355363900" />
   </component>
 </project>

@@ -320,19 +320,20 @@ img {
     background-size: 240px 250px;
 }
 
-.project-card__visual-pi {
-    background-image: url(../img/pi.svg);
+.project-card__visual-adguard-serveroid {
+    background-color: #313131;
+    background-image: url(../img/schema.png);
     background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
+    background-position: 173px -74px;
+    background-size: 70%;
 }
 
-.project-card__visual-pi p {
-    color: white;
-    text-align: center;
-    background-color: black;
-    padding: 10px;
-    border-radius: 5px 5px;
+.project-card__visual-adguard-dns {
+    background-color: #F8F9FA;
+    background-image: url(../img/dns.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .project-card__visual-primexbt {
@@ -345,14 +346,6 @@ img {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}
-
-.project-card__visual-dialer {
-    background-color: #86af45;
-}
-
-.project-card__visual-dialer p {
-    color: white;
 }
 
 .project-card__link-name-system {
@@ -368,13 +361,6 @@ img {
     background-repeat: no-repeat;
     background-position: center;
     background-size: 240px 250px;
-}
-
-.project-card__visual-artwork {
-    background-image: url(../img/vector.svg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 180px 180px;
 }
 
 .page-main__skills .skill {
@@ -403,6 +389,9 @@ img {
     min-width: 200px;
 }
 
+.adguard img {
+    max-height: 50px;
+}
 
 .page-main__about-me {
     display: flex;
