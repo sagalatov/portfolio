@@ -145,6 +145,10 @@ img {
   justify-content: space-around;
 }
 
+.page-main__projects .title {
+  width: 100%;
+}
+
 .project-card {
   display: flex;
   flex-direction: column;
@@ -371,13 +375,16 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
-  border: 1px solid #ccc;
-  border-radius: 10% 10%;
-  min-height: 100px;
-  min-width: 100px;
+  flex-direction: row;
+  min-height: 40px;
+  min-width: 40px;
   margin: 0 10px 20px 0;
+  padding: 5px;
   background-color: white;
+}
+
+.skill_description {
+  margin-left: 10px;
 }
 
 .page-main__company .company {
@@ -394,70 +401,18 @@ img {
 }
 
 .adguard img {
-  max-height: 50px;
+  max-height: 45px;
 }
 
-.page-main__about-me {
+.page-main__work_experience {
   display: flex;
-  flex-direction: column-reverse;
-  border: 5px solid #ccc;
+  flex-direction: column;
   justify-content: space-between;
   margin-bottom: 40px;
 }
 
-.page-main__about-me-interests {
-  justify-content: flex-start;
-  align-items: flex-start;
-  flex-direction: column;
-  display: flex;
-  flex-basis: 20%;
-  padding: 0 30px;
-}
-
-.page-main__about-me-interests-item {
-  display: flex;
-  font-size: 22px;
-  line-height: 34px;
-  margin-left: 30px;
-  flex-wrap: wrap;
-}
-
-.page-main__about-me-interests-item p {
-  margin: 0 60px 20px 0;
-  position: relative;
-}
-
-.page-main__about-me-interests-item p::before {
-  position: absolute;
-  content: " ";
-  width: 15px;
-  height: 15px;
-  background-color: black;
-  border: 1px solid black;
-  top: 8px;
-  left: -28px;
-  border-radius: 3px 3px;
-  transform: rotate(45deg);
-}
-
-.page-main__about-me-interests h3 {
-  font-size: 24px;
-  line-height: 34px;
-}
-
-.page-main__about-me-interests ul {
-  margin: 0 0 0;
-}
-
-.page-main__about-me-interests li {
-  margin-bottom: 15px;
-  font-size: 22px;
-  line-height: 34px;
-  font-weight: normal;
-  text-decoration: underline;
-}
-
-.page-main__about-me-article {
+.page-main__work_experience-article {
+  border: 5px solid #ccc;
   justify-content: flex-start;
   align-items: flex-start;
   flex-direction: column;
@@ -472,14 +427,23 @@ img {
 .work_experience_logo {
     display: flex;
     align-items: center;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 
-.work_experience_title {
-  font-size: 19px;
-  line-height: 34px;
-  font-weight: normal;
-  margin: 0 0 20px 0;
+.work_experience_time {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 10px;
+}
+
+.work_experience_time p {
+  margin: 0;
+  line-height: 20px;
+}
+
+.work_experience_time svg {
+  margin-right: 10px;
 }
 
 .work_experience_tasks {
@@ -492,16 +456,30 @@ img {
   font-size: 16px;
 }
 
+.work_experience_tasks_list_item {
+  display: flex;
+  flex-decoration: row;
+}
+
+.work_experience_tasks_list_item:not(last-child) {
+  margin-bottom: 10px;
+}
+
+.work_experience_tasks_list_dot {
+  margin-right: 5px;
+}
+
+
 .logo_link {
     margin-right: 20px;
 }
 
-.page-main__about-me-article h3 {
+.page-main__work_experience-article h3 {
   font-size: 24px;
   line-height: 34px;
 }
 
-.page-main__about-me_description {
+.page-main__work_experience_description {
   font-size: 19px;
   line-height: 34px;
   margin: 0;
@@ -534,6 +512,7 @@ img {
   justify-content: center;
   align-items: center;
   text-transform: uppercase;
+  margin: 0;
 }
 
 .page-footer__send-email a {
