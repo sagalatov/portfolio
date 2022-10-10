@@ -396,10 +396,6 @@ img {
   background-color: white;
 }
 
-.page-main__company .company .rsb {
-  min-width: 200px;
-}
-
 .adguard img {
   max-height: 45px;
 }
@@ -428,7 +424,7 @@ img {
   margin-bottom: 40px;
 }
 
-.work_experience_logo {
+.work_experience_title {
     display: flex;
     align-items: center;
     margin-bottom: 10px;
@@ -472,7 +468,6 @@ img {
 .work_experience_tasks_list_dot {
   margin-right: 5px;
 }
-
 
 .logo_link {
    display: flex;
