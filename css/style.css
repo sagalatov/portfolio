@@ -428,6 +428,7 @@ img {
     display: flex;
     align-items: center;
     margin-bottom: 10px;
+    font-weight: 600;
 }
 
 .work_experience_time {
